@@ -1,0 +1,101 @@
+---LOGIC GATES---
+NAND
+NOT
+AND
+OR
+NOR
+XOR
+XNOR
+
+--ADDERS---
+Half Adder
+Full Adder
+4-bit Ripple Carry Adder
+
+---MUX---
+2:1 MUX
+4:1 MUX
+
+---DEMUX---
+1:2 DEMUX
+1:4 DEMUX
+
+---ENCODER---
+4:2 Priority Encoder
+
+---DECODER---
+2:4 Decoder
+
+---COMPARATORS---
+1-bit comparator
+4-bit comparator
+
+---LATCHES---
+SR Latch
+Gated SR Latch
+D Latch
+
+---FLIP-FLOPS---
+Edge Triggered D Flip-Flop
+JK Flip-Flop
+T Flip-Flop
+
+---REGISTERS---
+1-bit register
+4-bit register
+4-bit register with enable
+4-bit register with load control and enable
+4-bit shift register
+4-bit bidirectional shift register
+Universal shift register
+
+---COUNTERS---
+Asynchronous (ripple) counter
+Synchronous counter
+4-bit binary counter
+Up/Down counter
+Mod-N counter
+
+---ALU---
+ALU with operations below MUX controlled: 
+ADD
+SUB
+AND
+OR
+XOR
+NOT
+PASS A
+PASS B
+
+---BUS SYSTEM---
+4-bit bus
+Bus Multiplexer
+Tri-state buffer
+Register select logic
+
+---MEMORY---
+1-bit memory cell
+4-bit memory word
+16x4 RAM
+Address decoder
+
+---CONTROL UNIT---
+Instruction Register
+Program Counter
+Instruction Decoder
+Timing Generator (counter + decoder)
+
+---MORE-REGISTERS---
+A register
+B register
+Instruction register
+Program Counter
+Memory Address Register
+
+---FINAL PHASE---
+
+Connect
+Registers -> Bus -> ALU -> Registers
+
+Computer
+Memory->Instruction Register->Control Unit->(Registers<->ALU<->Bus)->Program Counter
